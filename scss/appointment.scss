@@ -1,0 +1,44 @@
+@import 'common.scss';
+
+div.title{
+    font-size: .3rem;
+    color: #222;
+    padding: 0 .24rem;
+    height: .9rem;
+    line-height: .9rem;
+    border-bottom: 1px solid #dcdcdc;
+}
+.content{
+    margin: .24rem;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    padding: .24rem;
+    div{
+        display: flex;
+        margin-top: .28rem;
+        img{
+            width: .32rem;
+            height: .32rem;
+        }
+        p{
+            margin-left: .23rem;
+            font-size: .26rem;
+            color: #7e7e7e;
+        }
+    }
+    div:first-child{
+        margin-top: 0;
+    }
+}
+.btn{
+    display: block;
+    background-image: linear-gradient(to right, #75c504 , #65a607);
+    margin: .8rem auto;
+    width: 4.86rem;
+    height: .8rem;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .28rem;
+    color: #fff;
+    border-radius: .1rem;
+}

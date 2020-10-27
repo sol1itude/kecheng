@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>保存信息</title>
+    <link rel="stylesheet" href="./css/saveInfo.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+      </div>
+      <div class="content">
+        <div class="input-item">
+          <div><img src="./images/sinput1.png" alt="姓名" /></div>
+          <input type="text" placeholder="姓名" />
+        </div>
+        <div class="input-item">
+          <div><img src="./images/sinput4.png" alt="性别" /></div>
+          <select>
+            <option value="男">男</option>
+            <option value="女">女</option>
+          </select>
+        </div>
+        <div class="input-item">
+          <div><img src="./images/EB005_12.png" alt="年龄" /></div>
+          <input type="text" placeholder="年龄" />
+        </div>
+        <div class="input-item">
+          <div><img src="./images/EB005_14.png" alt="学校班级信息" /></div>
+          <input type="text" placeholder="学校班级信息" />
+        </div>
+       
+      </div>
+      <div class="save">保存</div>
+    </div>
+    <script src="./js/flexible.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+    <script>
+      $("input").focus(function () {
+        $(this).parents(".input-item").addClass("active");
+      });
+      $("input").blur(function () {
+        $(this).parents(".input-item").removeClass("active");
+      });
+    </script>
+  </body>
+</html>

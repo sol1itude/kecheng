@@ -117,3 +117,79 @@ body {
   background-color: #fff;
   padding-bottom: .2rem;
 }
+
+.head {
+  width: 100%;
+  height: 3.28rem;
+  background-image: url(../images/EB005_02.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.content {
+  padding: 0 .44rem;
+  overflow: hidden;
+}
+
+.content .input-item {
+  border-bottom: 1px solid #d2d2d2;
+  margin-top: .28rem;
+  display: flex;
+  align-items: center;
+  height: .88rem;
+}
+
+.content .input-item.active {
+  border-color: #5ea900;
+}
+
+.content .input-item div {
+  width: .9rem;
+  height: .3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .input-item div img {
+  width: .44rem;
+  height: .44rem;
+}
+
+.content .input-item input {
+  height: 80%;
+  flex: 1;
+  font-size: .28rem;
+  margin-left: .1rem;
+  color: #000;
+  border: none;
+  outline: none;
+}
+
+.content .input-item select {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  margin-left: .1rem;
+  margin-right: .15rem;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url(../images/xiala.png) no-repeat right;
+  background-size: .44rem .44rem;
+}
+
+.save {
+  display: block;
+  background-image: linear-gradient(to right, #75c504, #65a607);
+  margin: .8rem auto;
+  width: 4.86rem;
+  height: .8rem;
+  text-align: center;
+  line-height: .8rem;
+  font-size: .28rem;
+  color: #fff;
+  border-radius: .1rem;
+}

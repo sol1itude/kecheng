@@ -114,6 +114,65 @@ body {
 }
 
 .container {
-  background-color: #fff;
   padding-bottom: .2rem;
+}
+
+div.title {
+  font-size: .3rem;
+  color: #222;
+  padding: 0 .24rem;
+  height: .9rem;
+  line-height: .9rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.list .item {
+  padding: .24rem;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+}
+
+.list .item .i-left {
+  flex: 1;
+}
+
+.list .item .i-left div {
+  display: flex;
+  align-items: center;
+  margin-top: .20rem;
+}
+
+.list .item .i-left div img {
+  width: .32rem;
+  height: .32rem;
+}
+
+.list .item .i-left div p {
+  font-size: .26rem;
+  color: #777;
+  margin-left: .23rem;
+}
+
+.list .item .i-left div:first-child {
+  margin-top: 0;
+}
+
+.list .item .i-right {
+  margin-top: .10rem;
+  display: flex;
+}
+
+.list .item .i-right img {
+  width: .32rem;
+  height: .32rem;
+}
+
+.list .item .i-right p {
+  font-size: .26rem;
+  margin-left: .15rem;
+  color: #999;
+}
+
+.list .item .i-right p.lv {
+  color: #65b700;
 }
