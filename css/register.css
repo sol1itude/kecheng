@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  color: #333;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom */
+a {
+  color: #7e8c8d;
+  text-decoration: none;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  background-color: #fff;
+}
+
+.my-btn {
+  width: 2.2rem;
+  height: .88rem;
+  border-radius: 6px;
+  line-height: .88rem;
+  text-align: center;
+  font-size: .32rem;
+  color: #ffffff;
+}
+
+.my-btn.confirm {
+  background-color: #6fc800;
+}
+
+.my-btn.cancel {
+  background-color: #aeaeae;
+}
+
+.head {
+  width: 100%;
+  height: 3.8rem;
+  background-image: url(../images/EA001_05.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  overflow: hidden;
+}
+
+.head .avatar {
+  display: block;
+  width: 1.28rem;
+  height: 1.28rem;
+  margin: 1rem auto 0;
+}
+
+.head .nick-name {
+  color: #fff;
+  text-align: center;
+  font-size: 0.32rem;
+  margin-top: .2rem;
+}
+
+.content {
+  padding: 0 .44rem;
+  overflow: hidden;
+}
+
+.content .input-item {
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  margin-top: .28rem;
+  display: flex;
+  align-items: center;
+  height: .88rem;
+}
+
+.content .input-item.active {
+  border-color: #5ea900;
+}
+
+.content .input-item div {
+  width: .9rem;
+  height: .3rem;
+  border-right: 1px solid #dedede;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .input-item div img {
+  width: .44rem;
+  height: .44rem;
+}
+
+.content .input-item input {
+  height: 80%;
+  flex: 1;
+  font-size: .28rem;
+  margin-left: .25rem;
+  color: #000;
+  border: none;
+  outline: none;
+}
+
+.content .input-item select {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  margin-left: .25rem;
+  margin-right: .15rem;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url(../images/xiala.png) no-repeat right;
+  background-size: .44rem .44rem;
+}
+
+.foot {
+  padding: 1rem 1.04rem;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,80 @@
+@import 'common.scss';
+
+.head{
+    width: 100%;
+    height: 3.8rem;
+    background-image: url(../images/EA001_05.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    overflow: hidden;
+    .avatar{
+        display: block;
+        width: 1.28rem;
+        height: 1.28rem;
+        margin: 1rem auto 0;
+    }
+    .nick-name{
+        color: #fff;
+        text-align: center;
+        font-size: 0.32rem;
+        margin-top: .2rem;
+    }
+}
+.content{
+    padding: 0 .44rem;
+    overflow: hidden;
+    .input-item{
+        border: 1px solid #dedede;
+        border-radius: 4px;
+        margin-top: .28rem;
+        display: flex;
+        align-items: center;
+        height: .88rem;
+        &.active{
+            border-color: #5ea900;
+        }
+        div{
+            width: .9rem;
+            height: .3rem;
+            border-right: 1px solid #dedede;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: .44rem;
+                height: .44rem;
+            }
+        }
+        input{
+            height: 80%;
+            flex: 1;
+            font-size: .28rem;
+            margin-left: .25rem;
+            color: #000;
+            border: none;
+            outline: none;
+        }
+        select{
+            flex: 1;
+            height: 100%;
+            border: none;
+            outline: none;
+            margin-left: .25rem;
+            margin-right: .15rem;
+            
+            appearance:none;
+            -moz-appearance:none;
+            -webkit-appearance:none;
+            background: url(../images/xiala.png) no-repeat right;
+            background-size: .44rem .44rem;
+        }
+    }
+    
+
+}
+.foot{
+    padding: 1rem 1.04rem;
+    display: flex;
+    justify-content: space-between;
+}

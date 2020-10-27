@@ -1,0 +1,266 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  color: #333;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom */
+a {
+  color: #7e8c8d;
+  text-decoration: none;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: rgba(125, 125, 125, 0.7);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+html, body {
+  width: 100%;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  background-color: #fff;
+}
+
+.my-btn {
+  width: 2.2rem;
+  height: .88rem;
+  border-radius: 6px;
+  line-height: .88rem;
+  text-align: center;
+  font-size: .32rem;
+  color: #ffffff;
+}
+
+.my-btn.confirm {
+  background-color: #6fc800;
+}
+
+.my-btn.cancel {
+  background-color: #aeaeae;
+}
+
+.head {
+  width: 100%;
+  height: 2.8rem;
+  background-image: linear-gradient(to right, #75c504, #65a607);
+  padding: 0 .35rem;
+  display: flex;
+  padding-top: .6rem;
+}
+
+.head .avatar {
+  width: 1.02rem;
+  height: 1.02rem;
+}
+
+.head .h-left {
+  flex: 1;
+  display: flex;
+  margin-left: .25rem;
+  justify-content: space-between;
+  align-items: center;
+  height: min-content;
+}
+
+.head .h-left p {
+  color: #fff;
+}
+
+.head .h-left p.p1 {
+  font-size: .32rem;
+}
+
+.head .h-left p.p2 {
+  font-size: .28rem;
+  margin-top: .1rem;
+}
+
+.head .h-left p.p3 {
+  font-size: .32rem;
+  margin-top: .1rem;
+}
+
+.head .h-left div.d {
+  display: flex;
+  align-items: flex-end;
+}
+
+.head .h-left div.d img {
+  width: .32rem;
+  height: .32rem;
+  margin-left: .1rem;
+}
+
+.head .h-left div.codey {
+  display: flex;
+  align-items: center;
+}
+
+.head .h-left div.codey .code {
+  width: .56rem;
+  height: .56rem;
+  margin-right: .2rem;
+}
+
+.head .h-left div.codey .youjiantou {
+  width: .18rem;
+  height: .3rem;
+}
+
+.content {
+  padding: 0 .22rem;
+}
+
+.content .cont-head {
+  background-color: #fff;
+  box-shadow: 0px 0px 8px #e2d0d0;
+  margin-top: -.48rem;
+  border-radius: 8px;
+}
+
+.content .cont-head .qianbao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .35rem;
+  height: .72rem;
+}
+
+.content .cont-head .qianbao .p1 {
+  font-size: .26rem;
+}
+
+.content .cont-head .qianbao .p2 {
+  font-size: .22rem;
+  color: #666;
+}
+
+.content .cont-head .yue {
+  border-top: 1px solid #f4f4f4;
+  display: flex;
+  height: 1.5rem;
+  align-items: center;
+}
+
+.content .cont-head .yue div:first-child {
+  border-right: 1px solid #e7e7e7;
+}
+
+.content .cont-head .yue div {
+  flex: 1;
+  text-align: center;
+}
+
+.content .cont-head .yue div p.p1 {
+  font-size: .28rem;
+  color: #6fba05;
+}
+
+.content .cont-head .yue div p.p2 {
+  font-size: .22rem;
+  color: #666;
+  margin-top: .1rem;
+}
+
+.content .cont-item {
+  background-color: #fff;
+  box-shadow: 0px 0px 8px #e2d0d0;
+  margin-top: .2rem;
+  border-radius: 8px;
+}
+
+.content .cont-item div {
+  display: flex;
+  height: 1rem;
+  align-items: center;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.content .cont-item div img {
+  width: .44rem;
+  height: .44rem;
+  margin-left: .35rem;
+}
+
+.content .cont-item div p {
+  margin-left: .35rem;
+  font-size: .24rem;
+}
+
+.content .cont-item div:last-child {
+  border: none;
+}

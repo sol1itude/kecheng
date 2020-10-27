@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <img class="avatar" src="./images/avatar.png" alt="头像">
+            <p class="nick-name">我是昵称</p>
+        </div>
+        <div class="content">
+            <div class="input-item">
+                <div><img src="./images/sinput1.png" alt="姓名"></div>
+                <input type="text" placeholder="姓名">
+            </div>
+            <div class="input-item">
+                <div><img src="./images/sinput2.png" alt="身份证号"></div>
+                <input type="text" placeholder="身份证号">
+            </div>
+            <div class="input-item">
+                <div><img src="./images/sinput3.png" alt="手机号"></div>
+                <input type="text" placeholder="手机号">
+            </div>
+            <div class="input-item">
+                <div><img src="./images/sinput4.png" alt="性别"></div>
+                <select>
+                    <option value="男">男</option>
+                    <option value="女">女</option>
+                </select>
+            </div>
+        </div>
+        <div class="foot">
+            <span class="my-btn confirm">注册</span>
+            <span class="my-btn cancel">取消</span>
+        </div>
+    </div>
+    <script src="./js/flexible.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+    <script>
+        $('input').focus(function(){
+            $(this).parents('.input-item').addClass('active');
+        });
+        $('input').blur(function(){
+            $(this).parents('.input-item').removeClass('active');
+        });
+    </script>
+</body>
+</html>
