@@ -1,0 +1,93 @@
+@import "common.scss";
+
+.head {
+  padding: 0.2rem 0.24rem;
+  background-color: #fff;
+  .h-cont {
+    width: 100%;
+    height: 2.58rem;
+    border-radius: 6px;
+    background: url(../images/EB002_05.png) no-repeat center;
+    padding: 0.32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .flex {
+      display: flex;
+      align-items: center;
+      img {
+        width: 0.32rem;
+        height: 0.32rem;
+      }
+      p {
+        font-size: 0.26rem;
+        color: #fff;
+        margin-left: 0.18rem;
+      }
+    }
+  }
+}
+.content {
+  background-color: #fff;
+  border-top: 0.16rem solid #f4f4f4;
+  div.title {
+    padding: 0 0.24rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    color: #2a2a2a;
+    font-size: 0.3rem;
+    border-bottom: 1px solid #dcdcdc;
+  }
+  .course-list {
+    .course-item {
+      border-bottom: 1px solid #e2e2e2;
+      padding: 0.4rem 0.3rem;
+      .d1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img {
+          width: 0.32rem;
+          height: 0.32rem;
+        }
+        div {
+          display: flex;
+          align-items: center;
+        }
+        .dd1 {
+          p {
+            color: #555;
+            font-size: 0.28rem;
+            margin-left: 0.16rem;
+          }
+        }
+        .dd2 {
+          &.weishang {
+            p {
+              color: #69bd00;
+            }
+          }
+          p {
+            color: #999;
+            font-size: 0.26rem;
+            margin-left: 0.16rem;
+          }
+        }
+      }
+      .d2 {
+        display: flex;
+        align-items: center;
+        margin-top: 0.2rem;
+        img {
+          width: 0.32rem;
+          height: 0.32rem;
+        }
+        p {
+          margin-left: 0.16rem;
+          font-size: 0.28rem;
+          color: #7e7e7e;
+        }
+      }
+    }
+  }
+}
