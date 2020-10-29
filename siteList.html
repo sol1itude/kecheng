@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>场地列表</title>
+    <link rel="stylesheet" href="./css/siteList.css">
+  </head>
+  <body>
+    <div class="container">
+        <div class="title">场地列表</div>
+        <div class="action">
+            <div class="action-1">
+                <img src="./images/EB002_15.png" alt="">
+                <div class="date">
+                    <input readonly type="text" id="date">
+                    <img src="./images/EB010_03.png" alt="">
+                </div>
+                <img class="img2" src="./images/EB007_07.png" alt="">
+                <select>
+                    <option value="场地分类1">场地分类1</option>
+                    <option value="场地分类2">场地分类2</option>
+                    <option value="场地分类3">场地分类3</option>
+                    <option value="场地分类4">场地分类4</option>
+                    <option value="场地分类5">场地分类5</option>
+                </select>
+            </div>
+            <div class="action-2">
+                <img src="./images/EB002_21.png" alt="">
+                <select>
+                    <option>00:00</option>
+                    <option>01:00</option>
+                    <option>02:00</option>
+                    <option>03:00</option>
+                    <option>04:00</option>
+                    <option>05:00</option>
+                    <option>06:00</option>
+                    <option>07:00</option>
+                    <option>08:00</option>
+                    <option>09:00</option>
+                    <option>10:00</option>
+                    <option>11:00</option>
+                    <option>12:00</option>
+                    <option>13:00</option>
+                    <option>14:00</option>
+                    <option>15:00</option>
+                    <option>16:00</option>
+                    <option>17:00</option>
+                    <option>18:00</option>
+                    <option>19:00</option>
+                    <option>20:00</option>
+                    <option>21:00</option>
+                    <option>22:00</option>
+                    <option>23:00</option>
+                </select>
+                <p>- -</p>
+                <select>
+                    <option>00:00</option>
+                    <option>01:00</option>
+                    <option>02:00</option>
+                    <option>03:00</option>
+                    <option>04:00</option>
+                    <option>05:00</option>
+                    <option>06:00</option>
+                    <option>07:00</option>
+                    <option>08:00</option>
+                    <option>09:00</option>
+                    <option>10:00</option>
+                    <option>11:00</option>
+                    <option>12:00</option>
+                    <option>13:00</option>
+                    <option>14:00</option>
+                    <option>15:00</option>
+                    <option>16:00</option>
+                    <option>17:00</option>
+                    <option>18:00</option>
+                    <option>19:00</option>
+                    <option>20:00</option>
+                    <option>21:00</option>
+                    <option>22:00</option>
+                    <option>23:00</option>
+                </select>
+                <span>筛选</span>
+            </div>
+        </div>
+        <div class="site-list">
+            <div class="site-item">
+                <div class="left">
+                    <div>
+                        <img src="./images/EB007_04.png" alt="">
+                        <p>名称：场地名称</p>
+                    </div>
+                    <div>
+                        <img src="./images/EB007_07.png" alt="">
+                        <p>分类：场地分类</p>
+                    </div>
+                    <div>
+                        <img src="./images/EB007_12.png" alt="">
+                        <p>单价：￥60.00</p>
+                    </div>
+                </div>
+                <div class="right">我要预约</div>
+            </div>
+            <div class="site-item">
+                <div class="left">
+                    <div>
+                        <img src="./images/EB007_04.png" alt="">
+                        <p>名称：场地名称</p>
+                    </div>
+                    <div>
+                        <img src="./images/EB007_07.png" alt="">
+                        <p>分类：场地分类</p>
+                    </div>
+                    <div>
+                        <img src="./images/EB007_12.png" alt="">
+                        <p>单价：￥60.00</p>
+                    </div>
+                </div>
+                <div class="right">我要预约</div>
+            </div>
+            <div class="site-item">
+                <div class="left">
+                    <div>
+                        <img src="./images/EB007_04.png" alt="">
+                        <p>名称：场地名称</p>
+                    </div>
+                    <div>
+                        <img src="./images/EB007_07.png" alt="">
+                        <p>分类：场地分类</p>
+                    </div>
+                    <div>
+                        <img src="./images/EB007_12.png" alt="">
+                        <p>单价：￥60.00</p>
+                    </div>
+                </div>
+                <div class="right">我要预约</div>
+            </div>
+            <div class="site-item">
+                <div class="left">
+                    <div>
+                        <img src="./images/EB007_04.png" alt="">
+                        <p>名称：场地名称</p>
+                    </div>
+                    <div>
+                        <img src="./images/EB007_07.png" alt="">
+                        <p>分类：场地分类</p>
+                    </div>
+                    <div>
+                        <img src="./images/EB007_12.png" alt="">
+                        <p>单价：￥60.00</p>
+                    </div>
+                </div>
+                <div class="right">我要预约</div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/flexible.js"></script>
+    <script src="./js/rolldate.min.js"></script>
+    <script>
+        window.onload = function() {
+            function dateFormat() {
+                var time = new Date();
+                var y = time.getFullYear();
+                var m = time.getMonth() + 1;
+                var d = time.getDate();
+                return y + '-' + (m < 10 ? "0"+m : m)+ '-' + (d < 10 ? "0"+d : d)
+            }
+            document.getElementById('date').value = dateFormat();
+            new Rolldate({
+				el: '#date',
+				format: 'YYYY-MM-DD',
+				beginYear: 2000,
+				endYear: 2100
+			})
+        }
+    </script>
+  </body>
+</html>

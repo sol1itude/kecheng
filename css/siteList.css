@@ -130,3 +130,135 @@ div.title {
   line-height: .9rem;
   border-bottom: 1px solid #dcdcdc;
 }
+
+.action {
+  margin-top: .1rem;
+  background-color: #f8f8f8;
+  padding: .18rem .24rem;
+}
+
+.action select {
+  height: .44rem;
+  border: 1px solid #dedede;
+  font-size: .26rem;
+  color: #7e7e7e;
+  outline: none;
+  border-radius: .04rem;
+  text-align: center;
+  text-indent: .1rem;
+}
+
+.action img {
+  width: .32rem;
+  height: .32rem;
+}
+
+.action .action-1 {
+  display: flex;
+  align-items: center;
+}
+
+.action .action-1 .date {
+  height: .44rem;
+  line-height: .44rem;
+  border: 1px solid #dedede;
+  font-size: .26rem;
+  color: #7e7e7e;
+  outline: none;
+  border-radius: .04rem;
+  background-color: #fff;
+  margin-left: .18rem;
+  width: 2.2rem;
+  padding: 0 .1rem;
+  position: relative;
+}
+
+.action .action-1 .date input {
+  border: none;
+  outline: none;
+  width: 1.7rem;
+}
+
+.action .action-1 .date img {
+  width: .24rem;
+  height: .18rem;
+  position: absolute;
+  right: .1rem;
+  top: 50%;
+  margin-top: -.09rem;
+}
+
+.action .action-1 .img2 {
+  margin-left: .61rem;
+}
+
+.action .action-1 select {
+  width: 2rem;
+  margin-left: .25rem;
+}
+
+.action .action-2 {
+  display: flex;
+  align-items: center;
+  margin-top: .18rem;
+}
+
+.action .action-2 select {
+  width: 1.5rem;
+  margin-left: .16rem;
+}
+
+.action .action-2 p {
+  font-size: .24rem;
+  color: #7e7e7e;
+  margin-left: .16rem;
+}
+
+.action .action-2 span {
+  width: 1.16rem;
+  height: .44rem;
+  line-height: .44rem;
+  text-align: center;
+  font-size: .26rem;
+  color: #fff;
+  border-radius: .06rem;
+  background-color: #6fc800;
+  margin-left: .65rem;
+}
+
+.site-list .site-item {
+  padding: .24rem;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-list .site-item .left div {
+  display: flex;
+  align-items: center;
+  margin-top: .24rem;
+}
+
+.site-list .site-item .left div img {
+  width: .32rem;
+  height: .32rem;
+}
+
+.site-list .site-item .left div p {
+  color: #7e7e7e;
+  font-size: .26rem;
+  margin-left: .24rem;
+}
+
+.site-list .site-item .left div:first-child {
+  margin-top: 0;
+}
+
+.site-list .site-item .right {
+  font-size: .26rem;
+  color: #6fc800;
+  border-radius: .08rem;
+  border: 1px solid #6fc800;
+  padding: .05rem .15rem;
+  height: min-content;
+}

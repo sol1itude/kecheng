@@ -124,9 +124,47 @@ body {
 
 div.title {
   font-size: .3rem;
-  color: #2a2a2a;
+  color: #222;
   padding: 0 .24rem;
   height: .9rem;
   line-height: .9rem;
   border-bottom: 1px solid #dcdcdc;
+}
+
+.re-list .re-item {
+  display: flex;
+  justify-content: space-between;
+  padding: .24rem;
+  border-bottom: 1px solid #dcdcdc;
+  align-items: center;
+}
+
+.re-list .re-item.jia .left p.p1 {
+  color: #65a607;
+}
+
+.re-list .re-item.jia .right {
+  color: #65a607;
+}
+
+.re-list .re-item.jian .left p.p1 {
+  color: #000;
+}
+
+.re-list .re-item.jian .right {
+  color: #666;
+}
+
+.re-list .re-item .left p.p1 {
+  font-size: .28rem;
+}
+
+.re-list .re-item .left p.p2 {
+  font-size: .26rem;
+  margin-top: .18rem;
+  color: #7e7e7e;
+}
+
+.re-list .re-item .right {
+  font-size: .3rem;
 }

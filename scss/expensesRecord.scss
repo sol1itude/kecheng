@@ -1,0 +1,52 @@
+@import 'common.scss';
+
+div.title{
+    font-size: .3rem;
+    color: #222;
+    padding: 0 .24rem;
+    height: .9rem;
+    line-height: .9rem;
+    border-bottom: 1px solid #dcdcdc;
+}
+.re-list{
+    .re-item{
+        display: flex;
+        justify-content: space-between;
+        padding: .24rem;
+        border-bottom: 1px solid #dcdcdc;
+        align-items: center;
+        &.jia{
+            .left{
+                p.p1{
+                    color: #65a607;
+                }
+            }
+            .right{
+                color: #65a607;
+            }
+        }
+        &.jian{
+            .left{
+                p.p1{
+                    color: #000;
+                }
+            }
+            .right{
+                color: #666;
+            }
+        }
+        .left{
+            p.p1{
+                font-size: .28rem;
+            }
+            p.p2{
+                font-size: .26rem;
+                margin-top: .18rem;
+                color: #7e7e7e;
+            }
+        }
+        .right{
+            font-size: .3rem;
+        }
+    }
+}

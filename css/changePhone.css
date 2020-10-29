@@ -122,11 +122,32 @@ body {
   display: flex;
 }
 
-div.title {
-  font-size: .3rem;
-  color: #2a2a2a;
-  padding: 0 .24rem;
-  height: .9rem;
-  line-height: .9rem;
-  border-bottom: 1px solid #dcdcdc;
+div.input {
+  padding: 0 .46rem;
+  margin-top: 3rem;
+}
+
+div.input input {
+  outline: none;
+  border: 1px solid #dedede;
+  height: .88rem;
+  line-height: .88rem;
+  font-size: .28rem;
+  width: 100%;
+  border-radius: .08rem;
+  margin-top: .6rem;
+  text-indent: 1.5em;
+}
+
+.btn {
+  display: block;
+  background-image: linear-gradient(to right, #75c504, #65a607);
+  margin: .8rem auto;
+  width: 4.86rem;
+  height: .8rem;
+  text-align: center;
+  line-height: .8rem;
+  font-size: .28rem;
+  color: #fff;
+  border-radius: .1rem;
 }

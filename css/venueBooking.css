@@ -130,3 +130,148 @@ div.title {
   line-height: .9rem;
   border-bottom: 1px solid #dcdcdc;
 }
+
+.content {
+  padding: .24rem;
+}
+
+.content .item:first-child {
+  margin-top: 0;
+}
+
+.content .item {
+  margin-top: .24rem;
+  display: flex;
+  align-items: center;
+}
+
+.content .item img {
+  width: .32rem;
+  height: .32rem;
+  margin-right: .24rem;
+}
+
+.content .item p {
+  font-size: .26rem;
+  color: #7e7e7e;
+}
+
+.content .item select {
+  height: .44rem;
+  border: 1px solid #dedede;
+  font-size: .26rem;
+  color: #7e7e7e;
+  outline: none;
+  border-radius: .04rem;
+  text-align: center;
+  text-indent: .1rem;
+  width: 1.5rem;
+}
+
+.content .item .gang {
+  margin: 0 .2rem;
+}
+
+.content .item .date {
+  height: .44rem;
+  line-height: .44rem;
+  border: 1px solid #dedede;
+  font-size: .26rem;
+  color: #7e7e7e;
+  outline: none;
+  border-radius: .04rem;
+  background-color: #fff;
+  width: 2.1rem;
+  padding: 0 .1rem;
+  position: relative;
+}
+
+.content .item .date img {
+  width: .24rem;
+  height: .18rem;
+  position: absolute;
+  right: .1rem;
+  top: 50%;
+  margin-top: -.09rem;
+  margin-right: 0;
+}
+
+.content .tips {
+  display: flex;
+  align-items: center;
+  margin: .2rem 0 .2rem .56rem;
+}
+
+.content .tips .img1 {
+  width: .32rem;
+  height: .32rem;
+}
+
+.content .tips .img2 {
+  width: .24rem;
+  height: .18rem;
+}
+
+.content .tips p {
+  color: #65b700;
+  font-size: .26rem;
+  margin: 0 .1rem;
+}
+
+.content .tips-cont {
+  margin-left: .56rem;
+  padding: .2rem;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  width: 4.2rem;
+}
+
+.content .tips-cont div {
+  display: flex;
+  margin-top: .2rem;
+}
+
+.content .tips-cont div span {
+  border-radius: .04rem;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  height: .36rem;
+  line-height: .36rem;
+  width: 1.8rem;
+  text-align: center;
+  color: #7e7e7e;
+  font-size: .24rem;
+  float: left;
+  margin-left: .18rem;
+}
+
+.content .tips-cont div span:first-child {
+  margin-left: 0;
+}
+
+.content .tips-cont div:first-child {
+  margin-top: 0;
+}
+
+.foot span {
+  display: block;
+  width: 2.2rem;
+  height: .68rem;
+  line-height: .68rem;
+  text-align: center;
+  color: #fff;
+  font-size: .32rem;
+  border-radius: .08rem;
+  float: left;
+  overflow: hidden;
+  margin-left: 1rem;
+  margin-top: .8rem;
+}
+
+.foot span.s1 {
+  background-color: #6fc800;
+}
+
+.foot span.s2 {
+  background-color: #aeaeae;
+}
